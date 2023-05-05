@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fdfafb;
+  font-family: "LinhAvantGarde", sans-serif !important;
+  font-size: 18px !important;
+  overflow-x: hidden;
+  line-height: 1.42857;
+  color: #333;
+}
+#container {
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  padding: 1rem;
+}
+/* main left */
+#main-left h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#c8c9ca, #fff);
+    border: 0.5px solid #ebe6e6;
+    padding: 5px;
+}
+#main-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+.main-left-top {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.main-infor {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  width: 100%;
+}
+.main-infor p
+{
+    padding: 0.5rem;
+}
+/* main right */
+#main-right
+{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    border: 1px solid #c5bfbf;
+}
+.main-right-heading h2
+{    
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #fdfafb;
+    background-color: #c02135 !important;
+    padding:10px 10px ;
+}
+.main-right-body
+{
+    display: flex;
+    width: 100%;
+}
+.main-right-body-wrap
+{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.form-group
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.input-form
+{   
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+}
+.input-form i
+{
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 2px;
+} 
+.input-control
+{   
+    width: 100%;
+    height: 40px;
+    padding: 7px 15px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.input-form textarea
+{   
+    padding: 7px 15px;
+    font-size: 18px;
+    color: #555;
+    background-color: #fff;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    width: 100%;
+}
+.input-form-capcha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid #ccc7c7;
+    padding-left: 10px;
+}
+
+.input-form-capcha p:nth-child(2) {
+    
+    font-size: 16px;
+}
+.capcha-img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.capcha-img p:nth-child(2)
+{
+    font-weight:bold ;
+    font-size: 18px;
+}
+.capcha-img p:nth-child(3)
+{
+    font-size: 14px;
+    white-space: nowrap;
+}
+.checkbox-capcha
+{   
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+.capcha-img img {
+    width: 30%;
+    height: 30%;
+}
+.end-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button-end
+{
+    padding: 6px 12px;
+}
+.button-end input
+{   
+    padding: 10px 16px;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.button-end ._button
+{
+    background-color: #FFF;
+    border: 1px solid rgb(167, 162, 162);
+}
+.button-end ._submit
+{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    opacity: 0.6;
+}
